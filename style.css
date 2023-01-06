@@ -1,0 +1,44 @@
+.topnav {
+  background-color: blueviolet;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: lavender;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: plum;
+  color: white;
+}
+.container h2 {
+  text-align: center;
+  color: blueviolet;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+thead,
+tbody td {
+  border: 3px solid lavender;
+}
+
+thead {
+  background-color: plum;
+  color: blueviolet;
+}
+
+thead th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
